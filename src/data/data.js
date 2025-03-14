@@ -1,0 +1,138 @@
+[
+  {
+    name: "Apple iPhone 16",
+    category: "Mobile",
+    imageUrl: "https://example.com/product1.jpg",
+    price: 999.99,
+    stock: 50,
+    description:
+      "The Apple iPhone 16 with A15 Bionic chip and excellent camera quality.",
+  },
+  {
+    name: "Samsung Galaxy S21",
+    category: "Mobile",
+    imageUrl: "https://example.com/product2.jpg",
+    price: 799.99,
+    stock: 35,
+    description: "Samsung Galaxy S21, high-quality display, fast performance.",
+  },
+  {
+    name: "Sony WH-1000XM4 Headphones",
+    category: "Electronics",
+    imageUrl: "https://example.com/product3.jpg",
+    price: 349.99,
+    stock: 60,
+    description:
+      "Noise-cancelling wireless headphones with 30 hours of battery life.",
+  },
+  {
+    name: "Dell XPS 13 Laptop",
+    category: "Electronics",
+    imageUrl: "https://example.com/product4.jpg",
+    price: 1199.99,
+    stock: 20,
+    description: "Compact and powerful laptop with Intel Core i7 processor.",
+  },
+  {
+    name: "Nike Air Max 2021 Shoes",
+    category: "Shoes",
+    imageUrl: "https://example.com/product5.jpg",
+    price: 120.0,
+    stock: 80,
+    description: "Stylish and comfortable running shoes for everyday wear.",
+  },
+  {
+    name: 'Sony Bravia 55" 4K TV',
+    category: "Electronics",
+    imageUrl: "https://example.com/product6.jpg",
+    price: 799.99,
+    stock: 30,
+    description: "55-inch 4K Ultra HD LED Smart TV with great color accuracy.",
+  },
+  {
+    name: "Sofa Set - 3 Piece",
+    category: "Furniture",
+    imageUrl: "https://example.com/product7.jpg",
+    price: 499.99,
+    stock: 15,
+    description: "Comfortable 3-piece sofa set made with high-quality fabric.",
+  },
+  {
+    name: 'Samsung 32" Curved Monitor',
+    category: "Electronics",
+    imageUrl: "https://example.com/product8.jpg",
+    price: 249.99,
+    stock: 25,
+    description:
+      "32-inch curved monitor with high resolution and fast refresh rate.",
+  },
+  {
+    name: "Levi's 501 Original Jeans",
+    category: "Clothing",
+    imageUrl: "https://example.com/product9.jpg",
+    price: 59.99,
+    stock: 100,
+    description:
+      "Classic Levi's 501 Original jeans in different sizes and colors.",
+  },
+  {
+    name: "Canon EOS Rebel T7 Camera",
+    category: "Electronics",
+    imageUrl: "https://example.com/product10.jpg",
+    price: 549.99,
+    stock: 20,
+    description: "Beginner-friendly DSLR camera with a 24.1 megapixel sensor.",
+  },
+  {
+    name: 'Apple MacBook Pro 13"',
+    category: "Electronics",
+    imageUrl: "https://example.com/product11.jpg",
+    price: 1299.99,
+    stock: 10,
+    description:
+      "Apple MacBook Pro with Retina display and M1 chip for powerful performance.",
+  },
+  {
+    name: "Xiaomi Mi Band 6",
+    category: "Electronics",
+    imageUrl: "https://example.com/product12.jpg",
+    price: 49.99,
+    stock: 100,
+    description:
+      "Fitness tracker with heart rate monitor, sleep tracking, and more.",
+  },
+  {
+    name: "Nike Air Zoom Pegasus 37",
+    category: "Shoes",
+    imageUrl: "https://example.com/product13.jpg",
+    price: 120.0,
+    stock: 60,
+    description: "Running shoes designed for comfort and support.",
+  },
+  {
+    name: "Samsung Galaxy Watch 4",
+    category: "Electronics",
+    imageUrl: "https://example.com/product14.jpg",
+    price: 249.99,
+    stock: 45,
+    description:
+      "Smartwatch with fitness tracking, health monitoring, and more.",
+  },
+  {
+    name: "JBL Flip 5 Bluetooth Speaker",
+    category: "Electronics",
+    imageUrl: "https://example.com/product15.jpg",
+    price: 119.99,
+    stock: 75,
+    description:
+      "Portable Bluetooth speaker with deep bass and waterproof design.",
+  },
+  {
+    name: 'TCL 50" 4K TV',
+    category: "Electronics",
+    imageUrl: "https://example.com/product16.jpg",
+    price: 399.99,
+    stock: 30,
+    description: "50-inch 4K Ultra HD LED TV with Smart functionality.",
+  },
+];

@@ -1,0 +1,126 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Product Container */
+.productContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Image Container */
+.imageContainer {
+    flex: 1;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Product Detail */
+.productDetail {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Product Name */
+.productName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.Description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Product Price */
+.productPrice {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+/* Reviews Button */
+.productPrice p {
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.productPrice p:hover {
+    color: #0056b3;
+}
+
+/* Reviews Section */
+.productReview {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.productReview p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.productReview .reviewName {
+    font-weight: bold;
+    color: #333;
+}
+
+.productReview .reviewRating {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.productReview .reviewComment {
+    color: #555;
+}
+
+/* Review Toggle */
+.productDetail .reviewsToggle {
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1rem;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.productDetail .reviewsToggle:hover {
+    color: #0056b3;
+}

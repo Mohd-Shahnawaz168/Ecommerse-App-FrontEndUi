@@ -1,0 +1,58 @@
+.errorPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.errorPage h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff4d4d;
+}
+
+.errorPage h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+.errorPage h4 {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+.errorPage code {
+  font-size: 1rem;
+  background-color: #eee;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.errorPage button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.errorPage button:hover {
+  background-color: #0056b3;
+}
+
+.errorPage button:active {
+  background-color: #004085;
+}

@@ -1,0 +1,112 @@
+.productContainer {
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgba(64, 77, 148, .4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    transition: all .25s ease-in-out;
+}
+
+
+
+.productImage {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.productDetail {
+
+    width: 300px;
+}
+
+.productName {
+    color: #224957;
+    height: 100px;
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+.productName p {
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    /* Use WebKit box model */
+    line-clamp: calc();
+    -webkit-line-clamp: 2;
+    /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    /* Vertical stacking */
+    text-overflow: ellipsis;
+
+}
+
+.productPrice {
+    display: flex;
+    justify-content: space-between;
+    color: #224957;
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 0;
+    width: 100%
+}
+
+.reviewP {
+    cursor: pointer;
+}
+
+
+.addCartButton {
+    color: #fff;
+    font-size: 25px;
+    padding: .75rem 0;
+    transition: all .3s ease-in-out;
+    width: 50%;
+    width: 100%;
+    background: #7064e5;
+    border: 1px solid #7064e5;
+    border-radius: 6px;
+}
+
+.updateBtn {
+    color: #fff;
+    font-size: 25px;
+    padding: .75rem 0;
+    transition: all .3s ease-in-out;
+    width: 50%;
+    width: 100%;
+    background: #55f084;
+    border: 1px solid #7064e5;
+    border-radius: 6px;
+}
+
+.deleteBtn {
+    color: #fff;
+    font-size: 25px;
+    padding: .75rem 0;
+    transition: all .3s ease-in-out;
+    margin-top: 10px;
+    width: 50%;
+    width: 100%;
+    background: #c5352a;
+    border: 1px solid #7064e5;
+    border-radius: 6px;
+}
+
+.addCartButton:hover,
+.updateBtn:hover,
+.deleteBtn:hover {
+    background-color: white;
+    color: #7064e5;
+    cursor: pointer;
+
+}
